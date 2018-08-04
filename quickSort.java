@@ -17,7 +17,12 @@ public class HelloWorld
     OtherClass myObject = new OtherClass("Hello World!");
     System.out.print(myObject);
     int arr[]={9,5,1,100,2,3,99,101};
-    OtherClass.quickSort();
+    OtherClass.quickSort(arr,0, arr.length);
+    
+    for(int i:arr){
+          System.out.print(i + "   ");
+    }
+
   }
 }
 
@@ -29,20 +34,20 @@ public class OtherClass
   
   public OtherClass(String input)
   {
-    message = "Why, " + input + " Isn't this something?";
+     message = "Why, " + input + " Isn't this something?";
   }
   public String toString()
   {
     return message;
   }
   
-  public static void quickSort(int arr, int start, int end){
+  public static void quickSort(int arr[], int start, int end){
 
     
     if(end <= start)
       return;
     else{
-      pivot = start;
+      int pivot = start;
       int i = start+1;
       int j = end;
       
@@ -63,5 +68,11 @@ public class OtherClass
       
     }
     
+  }
+  
+  static void swap(int arr[], int i, int j){
+   int temp = arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
   }
 }
