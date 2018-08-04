@@ -49,8 +49,9 @@ public class OtherClass
     }
     else{
       pivot = start;
-      int i =start;
+      int i = start+1;
       int j = end;
+      
       while(i<j){
         if(arr[i]>=arr[pivot]){
          swap(arr,i, j);
@@ -64,7 +65,7 @@ public class OtherClass
         swap(arr,pivot,i);
              
       quickSort(arr,start, i-1);
-      quickSort(arr, i+1, );
+      quickSort(arr, i+1, end);
       
     }
     
