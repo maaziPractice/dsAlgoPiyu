@@ -39,14 +39,8 @@ public class OtherClass
   public static void quickSort(int arr, int start, int end){
 
     
-    if(end - start == 0)
+    if(end <= start)
       return;
-    else if(end - start == 1){
-      if (arr[0]>arr[1]){
-         swap(arr,0,1);
-      }
-      return;
-    }
     else{
       pivot = start;
       int i = start+1;
