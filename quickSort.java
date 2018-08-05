@@ -2,10 +2,9 @@
 public class QuickSort {
 	// arguments are passed using the text field below this editor
 	public static void main(String[] args) {
-		int arr[] = { 9, 5, 1, 100, 2, 3, 99, 101 };
+//		int arr[] = { 9, 5, 1, 100, 2, 3, 99, 101 };
 	
-//		int arr[] = { 2,12,111};
-
+		int arr[] = { 2,12,111};
 		quickSort(arr, 0, arr.length-1);
 
 		for (int i : arr) {
@@ -33,12 +32,15 @@ public class QuickSort {
 			}
 
 			
-			if (arr[pivot] >= arr[i])
+			if (arr[pivot] >= arr[i]){
 				swap(arr, pivot, i);
+				pivot = i;
+			}
+			// after this no matter what.....arr[pivot] is at RIGHT position
 			
 
-			quickSort(arr, start, i - 1);
-			quickSort(arr, i , end);
+			quickSort(arr, start, pivot - 1);
+			quickSort(arr, pivot+1, end);
 
 		}
 
