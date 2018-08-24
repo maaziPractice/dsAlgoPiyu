@@ -46,10 +46,10 @@ class PermuteWithoutRecursion
 	}
 	
 	private static void printStringCharWise(String string, int[] indexes){
-//		for(int i=0;i<indexes.length;i++){
-//			System.out.print(string.charAt(indexes[i]-1));
-//		}
-//		System.out.println();
+		for(int i=0;i<indexes.length;i++){
+			System.out.print(string.charAt(indexes[i]-1));
+		}
+		System.out.println();
 
 	}
 	
@@ -95,7 +95,7 @@ class PermuteWithoutRecursion
 			}
 			swapArrayElements(numberInBaseRadix, pointOfSplit-1, replaceWith);
 			Arrays.sort(numberInBaseRadix,pointOfSplit,numberInBaseRadix.length);
-			System.out.println("Next Number is "+Arrays.toString(numberInBaseRadix));
+			//System.out.println("Next Number is "+Arrays.toString(numberInBaseRadix));
 			return numberInBaseRadix;
 		}
 	
