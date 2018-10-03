@@ -10,3 +10,6 @@ circular npr
 give next permutation
 
 permute without recursion
+
+
+https://leetcode.com/problems/permutations-ii/description/
