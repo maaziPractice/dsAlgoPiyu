@@ -16,4 +16,8 @@ https://www.youtube.com/watch?v=RVIh0snn4Qc
 
 https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
 
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
+
+
 
