@@ -14,3 +14,6 @@ https://leetcode.com/problems/trapping-rain-water/description/
 
 https://www.youtube.com/watch?v=RVIh0snn4Qc
 
+https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
+
+
