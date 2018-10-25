@@ -18,6 +18,9 @@ https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
 
 https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
 
+https://www.geeksforgeeks.org/assign-mice-holes/
+
+largest histogram
 
 
 
