@@ -1,0 +1,19 @@
+maxHeap
+minHeap
+
+putInHeaps(int newNumber){
+
+
+if(newNumber <= maxHeap.top)
+   maxHeap.ADD(newNumber)
+else if(newNumber => minHeap)
+   minHeap.ADD(newNumber)
+
+if((minHeap.size - maxHeap.size) > 2)
+      minHeap.r
+   
+
+
+}
+
+https://stackoverflow.com/questions/10657503/find-running-median-from-a-stream-of-integers?rq=1
