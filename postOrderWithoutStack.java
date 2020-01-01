@@ -4,9 +4,9 @@ postOrder(Node n){
 
    if n==null return
    push n on stack // seeding
+   lastPrinted = null
 
-
-	do{
+	while(stack.isNotEmpty()){
 	  if lastPrinted == stack.top.left
 	     n =  stack.top.right
 	     while(n != null) {
@@ -19,7 +19,7 @@ postOrder(Node n){
 	      lastPrinted = stack.pop
 		  print lastPrinted
 
-	}while(stack.isNotEmpty())
+	}
 
 }
 
