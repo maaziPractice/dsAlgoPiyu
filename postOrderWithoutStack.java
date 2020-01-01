@@ -1,3 +1,32 @@
+
+
+postOrder(Node n){
+
+   if n==null return
+   push n on stack // seeding
+
+
+	do{
+	  if lastPrinted == stack.top.left
+	     n =  stack.top.right
+	     while(n != null) {
+	       push n
+	       n = n.left
+	     }
+	     lastPrinted = null
+	  else 
+	  if lastPrinted == stack.top.right
+	      lastPrinted = stack.pop
+		  print lastPrinted
+
+	}while(stack.isNotEmpty())
+
+}
+
+
+
+
+///////////
 postOrder(Node root){
       if root = null return;
 
